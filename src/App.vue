@@ -1,6 +1,13 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <ul>
+    <li>
+      <router-link to="/">首页</router-link>
+      <router-link to="/chart">图表展示</router-link>
+    </li>
+  </ul>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">

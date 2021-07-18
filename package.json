@@ -6,8 +6,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@types/highcharts": "^7.0.0",
     "ant-design-vue": "^2.2.2",
+    "highcharts": "^9.1.2",
     "vue": "^3.0.5",
+    "vue-router": "^4.0.10",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
